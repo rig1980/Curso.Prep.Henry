@@ -9,10 +9,19 @@ body{
 }
 
 #thirdDiv{
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+          /*flex-direction: column;*/
+          /*flex-direction: row-reverse;*/
+          /*flex-direction: column;*/
+          /*flex-direction: column-reverse;*/
+          /*flex-flow: row wrap;*/
+  /*justify-content: center;
+  align-items: center;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin:auto;
   background-color:rgb(199, 190, 109);
-  width: 600px;
+  width: 500px;
   height: 600px;
   padding: 50px;
   border:5px groove rgb(209, 121, 38);
@@ -30,6 +39,14 @@ h1{
 img{
   width: 400px;
 }
-li{
-  padding: 0 50px;
+
+ul{
+  display: flex;
+          /*flex-direction: column;*/
+          /*flex-direction: row-reverse;*/
+          flex-direction: column;
+          /*flex-direction: column-reverse;*/
+          /*flex-flow: row wrap;*/
+  justify-content: center;
+  align-items: center;
 }
